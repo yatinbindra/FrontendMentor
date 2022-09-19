@@ -1,0 +1,43 @@
+body{
+    font-family:'specimen';
+    background-color: hsl(219, 31%, 80%);
+    color: hsl(234, 12%, 34%);
+    }
+.card{
+    width: auto;
+    max-width: 280px;
+    margin: 100px auto;
+    display: grid;
+    text-align: center;
+    grid-template: 1fr;
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 7px 6px 22px -7px rgba(0,0,0,0.55);
+    padding: 15px 15px;
+    padding-bottom: 30px;
+  
+}
+.card h3{
+    font-weight: 600;
+    font-size: 23px;
+    text-align: center ;
+    padding: 0px 10px;
+  
+}
+.card span{
+   
+    font-size: 14px;
+    color:hsl(212, 8%, 61%);
+    
+    padding: 0px 15px;
+    
+}
+.card img{
+    width: auto;
+    height: 280px;
+    border-radius: 12px;
+
+}
+@media(max-width:375px){
+
+}
